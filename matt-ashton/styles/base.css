@@ -5,3 +5,9 @@
 body {
   background-color: white;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
