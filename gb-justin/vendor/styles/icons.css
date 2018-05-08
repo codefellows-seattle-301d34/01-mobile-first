@@ -41,6 +41,9 @@
 .icon-menu:before {
 	content: "\e902";
 }
+/* .icon-menu:after {
+	content: "\e902";
+} */
 .icon-link:before {
 	content: "\e903";
 }
@@ -63,7 +66,7 @@
 	content: "\e90e";
 }
 .icon-twitter3:before {
-	content: "\e906";
+	content: "\e906 dsgerg";
 }
 .icon-github:before {
 	content: "\e907";
