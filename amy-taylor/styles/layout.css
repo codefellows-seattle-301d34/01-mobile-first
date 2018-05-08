@@ -5,8 +5,8 @@ main {
 .icon-menu {
   float: right;
   font-size: 2em;
-  position: fixed;
-  top: 10px; left: 80%;
+  position: absolute;
+  top: 10px; left: 90%;
 }
 
 .heading-group-h1 {
@@ -21,6 +21,13 @@ header.clearfix {
   padding-bottom: .25px;
 }
 
+img {
+  display: block;
+  width: 99%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
 @media only screen and (min-width: 640px) {
   hr {
     display: none;
@@ -28,5 +35,13 @@ header.clearfix {
   
   ul li{
     display: inline-block;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  img {
+    width: 50%;
   }
 }
