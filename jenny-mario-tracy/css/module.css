@@ -25,6 +25,7 @@ header > div a {
 }
 
 ul {
+  display: none;
   list-style-type: none;
   margin-left: 0em;
   padding-left: 0em;
@@ -41,5 +42,9 @@ li a {
   text-decoration: none;
   color: grey;
   font-family: 'Times New Roman', Times, serif;
+
+}
+
+.icon-menu:hover {
 
 }
