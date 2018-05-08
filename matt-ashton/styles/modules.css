@@ -13,7 +13,7 @@ nav ul {
   display: none;
 }
 
-nav:hover {
+nav:hover ul {
   display: block;
 }
 
