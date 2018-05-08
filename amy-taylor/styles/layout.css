@@ -21,29 +21,36 @@ header.clearfix {
   padding-bottom: .25px;
 }
 
-img {
-  display: block;
-  width: 99%;
-  margin: auto;
-  padding: 20px 0px;
+#menu {
+  display: none;
 }
 
+#showMenu:hover + ul {
+  display: block;
+}
 
 @media only screen and (min-width: 640px) {
   hr {
     display: none;
   }
   
+  ul {
+    display: inline-block;
+  }
+  
   ul li{
+    display: inline-block;
+  }
+  
+  #menu {
     display: inline-block;
   }
 
   .icon-menu {
     display: none;
   }
-
+  
   img {
     width: 50%;
   }
-  
 }
