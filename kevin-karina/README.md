@@ -4,19 +4,37 @@
 **Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This ia a blog in which different people can participate. The problem is that its not styled and its also not responsive. The hamburger menu its not working.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
+First build an html file and then css files:
+- base
+- modules
+- layout
+
+The user has to link these css files into the html file.
+
+Start to work on css to style the HTML file.
+
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+Technologies used:
+- HTML5/CSS3
+- moonico.io
+- GitHub
+
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+11:00--- CSS Files are connected.
+12:00--- header styled with color.
+1:33---- We added the hamburger icon, but didn't finish
 
-## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
--->
+## Credits and collaborations
+
+- Karina Amador
+- Kevin Hwangpo
+
+
