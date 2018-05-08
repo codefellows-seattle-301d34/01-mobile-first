@@ -13,13 +13,22 @@
     display: inline;
   }
 
+  nav ul {
+  display: flex;
+  align-items: stretch;
+  flex-flow: row nowrap;
+  margin-left: 2%;
+}
 
-
-  .icon-menu:hover + nav ul {
-    display: block;
-    color: black;
-    background-color: white;
-  }
+nav ul li {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+  color: darkgrey;
+  /* align-items: stretch; */
+  /* flex-flow: row nowrap; */
+}
+ 
   
   nav ul {
     display: block;
@@ -27,5 +36,17 @@
     flex-flow: row nowrap;
   }
 
+}
+
+
+.icon-menu:hover + ul{
+  display: block;
+  list-style: none;
+  padding-bottom: 5px;
+  border-bottom: 2px;
+  border-color: gray;
+  font-family: serif;
+  color: rgb(83, 79, 79);
+  margin-left: 10px;
 }
 
