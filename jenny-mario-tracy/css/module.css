@@ -45,6 +45,6 @@ li a {
 
 }
 
-.icon-menu:hover {
-
+.icon-menu:hover + ul {
+  display:block;
 }
