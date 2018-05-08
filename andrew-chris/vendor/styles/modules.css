@@ -1,12 +1,14 @@
-body > header {
-background-color: bisque
-
-
+.icon-menu {
+  font-size: 2em;
+  text-align: right;
+  position: relative;
+  top: 350%;
+  transform: translateY(-350%);
 
 }
-
-ul {
-list-style-type:none;
+nav ul {
+ display: none; 
+ list-style-type: none;
 }
 
 li {
@@ -16,6 +18,10 @@ li {
 li a{
   color: dimgray;
   font-size: 1.3em;
+}
+.icon-menu:hover ~ nav ul{
+ display: block;
+  
 }
 
 div > address {
@@ -35,21 +41,19 @@ div > address {
   
 }
 
-#about{
-  padding-top: 120px;
-  margin: auto;
-  width: 50%;
-}
-
-footer{
-  
- margin: auto;
-  width: 50%;
-
-}
 
 section * li {
  display: block;
  list-style-type: decimal;
 
+}
+
+@media only screen and (min-width: 640px) {
+  nav ul {
+    list-style-type: none;
+    display: block;
+   }
+  .icon-menu{
+    display: none;
+  }
 }
