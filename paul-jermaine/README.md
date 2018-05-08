@@ -17,6 +17,8 @@
 05-08-2018 9:28am - Stylesheets now linked into index.html
 
 05-08-2018 9:47am - Added hamburger menu icon to index.html
+
+05-08-2018 10:40am - Applied styling to header nav bar; Hamburger menu is now responsive
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.

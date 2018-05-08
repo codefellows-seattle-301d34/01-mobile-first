@@ -1,0 +1,15 @@
+.heading-group-h1 h1 {
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.icon-menu {
+  font-size: 5rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+}
+
+.icon-menu:hover + ul {
+  display: block;
+}
