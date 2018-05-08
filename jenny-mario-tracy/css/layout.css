@@ -5,9 +5,10 @@ address {
 }
 
 .icon-menu {
-  position: absolute;
+  /* position: absolute;
   top: .1em;
-  right: .1em;
+  right: .1em; */
+  float:right;
   font-size: 2.5em;
 }
 

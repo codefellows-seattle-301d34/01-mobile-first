@@ -3,6 +3,8 @@ body > header {
 }
 
 .heading-group-h1 {
+  float: left;
+  clear: right;
   background-color: rgb(243, 216, 136);
   padding: 1em 1em 1em 1em;
 }
@@ -34,6 +36,7 @@ ul {
   list-style-type: none;
   margin-left: 0em;
   padding-left: 0em;
+  margin-top:0;
 }
 
 li {
@@ -52,11 +55,11 @@ li a {
 }
 
 li:first-child{
-  padding-top: 0em;
+  padding-top: 7em;
 }
 
 
-.icon-menu:hover + ul {
+nav:hover > ul {
   display:block;
 }
 
@@ -78,9 +81,14 @@ main p{
   border-bottom: none;
   padding-left: 0em;
   float:none;
+  padding-top: 0;
 }
 
 @media only screen and (min-width:640px){
+  .heading-group-h1 {
+    width:100%;
+    float:none;
+  }
   .icon-menu{
     display: none;
   }
