@@ -13,6 +13,6 @@ header {
   right: 0;
 }
 
-.by-line * {
+article > header > div * {
   display: inline-block;
 }
