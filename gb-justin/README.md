@@ -8,9 +8,12 @@ We have a website that has a header with a navigation menu and blocks of text be
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+The user would need to fork the repository, then clone the fork using gitbash. 
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+We are using CSS and Html
+
 
 ## Change Log
 
