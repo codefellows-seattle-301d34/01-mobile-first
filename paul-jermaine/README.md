@@ -22,6 +22,8 @@
 
 05-08-2018 11:27am - Navbar is fully functional for mobile.
 
+05-08-2018 12:18pm - Mobile layout complete.
+
 
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
