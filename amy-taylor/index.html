@@ -5,7 +5,7 @@
     <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" type="text/css" href="style/normalize.css">
+  <link rel="stylesheet" type="text/html" href="style/normalize.css">
   <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
   <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
   <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
@@ -40,10 +40,10 @@
       <div class="icon-menu"></div>
 
       <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li><hr>
+        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li><hr>
+        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li><hr>
+        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li><hr>
       </ul>
     </nav>
   </header>
@@ -100,5 +100,10 @@
     <!-- REVIEW: Note the use of &copy; below, and take a moment to look up how special characters are displayed in HTML if you are not familiar with them. -->
     &copy; 2018 Code Fellows | Static Blog | Happy Ipsum!
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 </html>
