@@ -1,0 +1,59 @@
+.icon-menu {
+  font-size: 2em;
+  text-align: right;
+  position: relative;
+  top: 350%;
+  transform: translateY(-350%);
+
+}
+nav ul {
+ display: none; 
+ list-style-type: none;
+}
+
+li {
+ display: inline;
+}
+
+li a{
+  color: dimgray;
+  font-size: 1.3em;
+}
+.icon-menu:hover ~ nav ul{
+ display: block;
+  
+}
+
+div > address {
+ display: inline-block;
+}
+
+.pull-right{
+  float: right;
+}
+
+.pull-left{
+  float: left;
+}
+
+.pull-right:last-child{
+  display: block;
+  
+}
+
+
+section * li {
+ display: block;
+ list-style-type: decimal;
+
+}
+
+@media only screen and (min-width: 640px) {
+  nav ul {
+    list-style-type: none;
+    display: block;
+   }
+  .icon-menu{
+    display: none;
+  }
+}
