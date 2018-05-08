@@ -1,0 +1,16 @@
+.icon-menu {
+  float: right;
+  font-size: 2em;
+  margin-top: -130px;
+}
+
+.heading-group-h1 {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+header.clearfix {
+  background: rgb(219, 203, 129);
+  width: 100%;
+}
