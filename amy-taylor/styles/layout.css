@@ -1,16 +1,49 @@
+main {
+  margin: 0 10px;
+}
+
 .icon-menu {
   float: right;
   font-size: 2em;
-  margin-top: -130px;
+  position: absolute;
+  top: 10px; left: 90%;
 }
 
 .heading-group-h1 {
   display: inline-block;
-  padding: 0px;
+  padding: 10px;
   margin: 0px;
 }
 
 header.clearfix {
   background: rgb(219, 203, 129);
   width: 100%;
+  padding-bottom: .25px;
+}
+
+img {
+  display: block;
+  width: 99%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+
+@media only screen and (min-width: 640px) {
+  hr {
+    display: none;
+  }
+  
+  ul li{
+    display: inline-block;
+  }
+
+  .icon-menu {
+    display: none;
+  }
+
+  img {
+    width: 50%;
+  }
+  
 }
