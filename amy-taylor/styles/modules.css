@@ -15,10 +15,3 @@ ul li {
 address {
   display: inline;
 }
-
-img {
-  display: block;
-  width: 99%;
-  margin: auto;
-  padding: 20px 0px;
-}

@@ -21,6 +21,13 @@ header.clearfix {
   padding-bottom: .25px;
 }
 
+img {
+  display: block;
+  width: 99%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
 #menu {
   display: none;
 }
