@@ -1,0 +1,13 @@
+body>header{
+  background-color: #FFEAAA;
+  
+}
+header a{
+ 
+  text-decoration: none;
+  color: #777777;
+}
+header li{
+  display :inline-block;
+  list-style-type: none;
+}
