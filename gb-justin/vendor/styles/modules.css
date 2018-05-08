@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 640px) {
+  nav ul li {
+    display: none;
+  }
+
+  nav > div {
+    display: inline;
+  }
+
+}

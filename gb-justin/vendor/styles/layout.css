@@ -1,0 +1,9 @@
+nav ul {
+  display: flex;
+  align-items: stretch;
+  flex-flow: row nowrap;
+}
+
+nav ul li {
+  display: inline-block;
+}
