@@ -1,4 +1,4 @@
-nav ul {
+/* nav ul {
   display: flex;
   align-items: stretch;
   flex-flow: row nowrap;
@@ -6,4 +6,9 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+} */
+
+.icon-menu {
+  position: absolute;
+  right: 10px;
 }
