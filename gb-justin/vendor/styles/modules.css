@@ -30,6 +30,12 @@ nav ul li {
 }
  
   
+  nav ul {
+    display: block;
+    align-items: stretch;
+    flex-flow: row nowrap;
+  }
+
 }
 
 
