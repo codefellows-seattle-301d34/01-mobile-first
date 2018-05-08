@@ -6,6 +6,24 @@ body > header {
   background-color: rgb(206,206,89);
 }
 
-nav > div {
-  display: none;
+nav div {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 2.5em;
+}
+
+nav {
+  border: 2px solid black;
+
+}
+
+a {
+  /* display: none; */
+  display: block;
+  border-bottom: 2px;
+  border-color: gray;
+  font-family: serif;
+  color: darkgray;
+  margin-left: 10px;
 }
