@@ -2,13 +2,15 @@
   display: flex;
   align-items: stretch;
   flex-flow: row nowrap;
+} */
+
+nav ul {
+  /* display: block; */
+  /* align-items: stretch; */
+  /* flex-flow: row nowrap; */
 }
 
 nav ul li {
-  display: inline-block;
-} */
-
-.icon-menu {
-  position: absolute;
-  right: 10px;
+  padding: 5px;
 }
+
