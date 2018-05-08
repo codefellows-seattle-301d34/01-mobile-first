@@ -28,6 +28,7 @@ img {
   padding: 20px 0px;
 }
 
+
 @media only screen and (min-width: 640px) {
   hr {
     display: none;
@@ -44,4 +45,5 @@ img {
   img {
     width: 50%;
   }
+  
 }

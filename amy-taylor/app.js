@@ -3,5 +3,3 @@ $(document).ready(function() {
     $('ul').toggle();
   });
 });
-
-console.log('im here');
