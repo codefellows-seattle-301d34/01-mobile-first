@@ -12,27 +12,26 @@ address {
     display:inline;
 }
 
-
-
 .header {
     background-color: #cebfa4;
   }
   
-  nav, .menu {
-    overflow: hidden;
-    background-color#cebfa4;
-  }
+nav, .menu {
+  overflow: hidden;
+  background-color: #cebfa4;
+}
   
-  
-  
-  header, article{
-    padding:1em;
-  }
-  
-  .icon-menu:hover + nav {
-    display: inline;
-    background-color:white;
-  }
+header, article{
+  padding: 1em;
+}
+
+.icon-menu {
+  display:none;
+}
+.icon-menu:hover + nav {
+  display: inline;
+  background-color:white;
+}
   
 
   
