@@ -1,0 +1,27 @@
+header.clearfix {
+  background-color: #FFEAA9;
+  margin-left: 0em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+nav li{
+  display: inline-block;
+  margin-right: 3em;
+  color: grey;
+  
+}
+nav a {
+  text-decoration: none;
+}
+section.heading-group-h1 h1, h2 {
+  margin-left: .5em;
+}
+
+
+ @media only screen and (min-width: 700px) {
+  .icon-menu{
+    content: "\e902";
+    
+  }
+
+} 
